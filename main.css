@@ -1,0 +1,87 @@
+main.css
+
+body 
+{
+  font-family: Aboreto;
+  background-color: #111111;
+ 
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Одна колонка, две колонки, одна колонка #4c4c50 серый #e9e9e9 светлый */
+  grid-template-rows: 670px 200px;
+  grid-gap: 15px;
+  grid-template-areas:
+    "image-column"
+    "text-column"
+    "naviki"
+    "contacts";
+  width: auti;
+  margin: 0 auto;
+  background-color: #111111; /* Цвет фона контейнера */
+  padding: 20px;
+}
+
+.image-column {
+  background-color: #111111;
+ 
+}
+.naviki {
+  font-family: Aboreto;
+  font-size: 22.5px;
+  front_color:#4c4c50;
+  background-color: #e9e9e9;
+  padding: 20px;
+
+}
+.text-column {
+  font-family: Aboreto;
+  font-size: 20.5px;
+  background-color: #e9e9e9;
+  padding: 20px;
+}
+.contacts {
+  font-family: Aboreto;
+  font-size: 22.5px;
+  background-color: #e9e9e9;
+  padding: 20px;
+}
+
+
+
+
+h1 {
+font-size: 22px;
+}
+
+h2 {
+font-size: 22px;
+}
+
+  font-family: Aboreto;
+  font-size: 21px;
+  background-color: #e9e9e9;
+  padding: 20px;
+
+/* Свойства фотографии*/
+.photo {
+
+/* Эффект наведения на картинку */
+.photo:hover {
+border: 3px solid #FFD700;
+}
+
+
+/* Свойства ссылок */
+a {
+display: block;
+text-decoration:none;
+margin-bottom: 1.2em;
+position: relative;
+}
+
+/* Что делать при наведении на ссылку */
+a:hover {
+color:#7E3545;
+}
